@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/68d3c4da02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./newWeather.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <main>
+        <section class="MainCardContainer">
+            <form action="#">
+                <input class="SearchInput" type="text" placeholder="Enter The City Name">
+                <button class="SearchButton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="ImageTempContainer">
+                <img class="WeatherImage" src="./images/snow.png" alt="Snow Icon">
+                <p class="temperature">--°C</p>
+                <p class="WeatherCondition">--</p>
+            </div>
+            <div class="ValueContainer">
+                <div class="HumidityContainer">
+                    <img src="./images/humidity.png" alt="Humidity Icon">
+                    <div>
+                        <p>Humidity</p>
+                        <p class="HumidityValue">--%</p>
+                    </div>
+                </div>
+                <div class="WindSpeedContainer">
+                   
+                    <img src="./images/wind.png" alt="Wind Speed Icon">
+                    <div>
+                        <p>Wind Speed</p>
+                         <p class="WindSpeedValue">-- km/h</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Created by <a href="https://github.com/yourusername" target="_blank">Rana Hassan</a></p>
+
+    </footer>
+    <script src="./Newweather.js"></script>
+</body>
