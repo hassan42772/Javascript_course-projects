@@ -59,7 +59,7 @@ for (const key in keysArray) {
     }
 }
 
-/* using for in loop with string*/
+/*using for in loop with string*/
 const string1= "ali is a programmer"
 
 for (const key in string1) {

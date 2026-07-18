@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul class="Mylist">
+    <li>Javascript</li>
+  </ul>
+</body>
+<script>
+  let ul_list = document.querySelector('.Mylist')
+  let list = ["java","python","c++"]
+  list.forEach(item => {
+    let li = document.createElement('li');
+  li.id = (Math.random()*10)+1
+  li.setAttribute("title" ,"Unorder list")
+  li.appendChild(document.createTextNode(item))
+  ul_list.appendChild(li)
+  });
+  
+</script>
+</html>

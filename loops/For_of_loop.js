@@ -77,6 +77,7 @@ const obj = {
 
 for (const [key , value]  of obj) {
     console.log(`${key} and ${value}`);
+}
 =======
 // ----> For OF Loop 
 

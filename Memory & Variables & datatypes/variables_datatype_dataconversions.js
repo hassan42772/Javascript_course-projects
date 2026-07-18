@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 //! JavaScript is a dynamically typed language. This means that the data types of variables are determined at runtime, and you can change the type of a variable as needed. 
 
+//? 👉 It means:
+
+//? You don’t need to declare a data type (like string, number, etc.) when creating a variable — JavaScript decides it automatically while running the code (runtime).
 
 /*
 ! type of variable 

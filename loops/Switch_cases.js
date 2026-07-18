@@ -17,7 +17,7 @@ switch (age === 18 && country === "pakistan") {
         break;
     default:
         console.log("you are not eligible to vote");
-        break;
+        break;}
 =======
 // ===>Switch cases are used to perform different actions based on different conditions.
 

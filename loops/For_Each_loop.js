@@ -122,7 +122,7 @@ let arr13 = [
         skill:'python developer'
     },
     {
-        name:'arooj',
+        name:'alina',
         city:'bahawalnagar',
         age:16,
     }

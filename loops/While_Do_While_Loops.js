@@ -23,6 +23,9 @@ let counter1 = 1
 do {
     console.log(`counter value is ${counter1}`);
     counter1=counter1+1
+
+} while (counter1<=1);
+
 =======
 //! ----> WHILE LOOPS <-----
 
@@ -49,4 +52,3 @@ do {
     console.log(`counter value is ${counter1}`);
     counter1=counter1+1
 >>>>>>> fd72026 (update the weather app)
-} while (counter1<=1);

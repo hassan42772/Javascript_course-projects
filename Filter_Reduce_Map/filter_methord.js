@@ -86,7 +86,7 @@ let data = [
 let clear_data = data.filter((info) => {
     if (info.Worker_age >=20 && info.Worker_city.length ===6 && info.Worker_qualifaction === 'master' && info.year >=1995) {
         console.log(`Worker_Name :${info.Worker_name}\nWorker_book :${info.Written_books}\nyear :${info.year} `);
-    }
+    }}
 =======
 /* to solve it we use the filter mehord  */
 /* it give the return value and for each loop cannot return the value  */

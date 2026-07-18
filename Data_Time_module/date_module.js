@@ -88,7 +88,6 @@ console.log(Math.round(Date.now()/1000/60/60/24)) //=> convert into days
 console.log(Math.round(Date.now()/1000/60/60/24/365)) //=> convert into years
 
 
-
 =======
 // => date_module 
 // => date is a object
